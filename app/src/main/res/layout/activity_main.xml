@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/tlo_color"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <Button
+        android:text="NOWY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnnext" />
+
+    <TextView
+        android:text="@string/powitanie"
+        style="@style/powitanie"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:text="@string/lista_produktow"
+        style="@style/lista_produktow"
+        android:id="@+id/textView2" />
+
+
+    <ListView
+        android:id="@+id/list_products"
+        android:layout_gravity="bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="87dp"
+
+        >
+
+    </ListView>
+
+    <TextView
+        android:text="@string/opis_produktu"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@color/tlo_color"
+        android:layout_width="fill_parent"
+        android:layout_height="207dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:baselineAligned="false">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_weight="0.14" />
+
+        <ImageView
+            android:layout_width="205dp"
+            android:layout_height="148dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="left"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="jazda dalej"
+            android:background="@drawable/guzik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:layout_weight="0.03" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

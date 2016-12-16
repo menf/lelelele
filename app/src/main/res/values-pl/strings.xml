@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">kamilsklep</string>
+    <string name="powitanie">Witaj w sklepie!!</string>
+    <string name="lista_produktow">Aktualny asortyment:</string>
+    <string name="opis_produktu">Opis produktu:</string>
+    <string name="textview">Szukaj książek!</string>
+    <string name="button">Szukaj</string>
+    <string name="hint">Tytuł/Autor</string>
+    <string name="activity_details">Szczegóły książki</string>
+    <string name="brazowa">Krewetka Schoko</string>
+    <string name="brazowa_opis">Krewetka Schoko cena: 200zł</string>
+
+    <string name="czerwona">Krewetka Red Cherry</string>
+    <string name="czerwona_opis">Red Cherry cena: 300zł</string>
+
+    <string name="niebieska">Krewetka Blue Velvet</string>
+    <string name="niebieska_opis">Blue Velvet cena: 15zł</string>
+
+    <string name="zielona">Krewetka Green Jade</string>
+    <string name="zielona_opis">Green Jade cena: 50zł</string>
+
+    <string name="zolta">Krewetka Yellow</string>
+    <string name="zolta_opis">Yellow  cena: 100zł</string>
+
+
+
+</resources>
+
+
+
